@@ -12,15 +12,47 @@
 
 }
 
+body {
+    font-size: var(--primary-font-size);
+}
+
 .content {
     width: 1285px;
     margin: 0 auto;
 }
+
+.list {
+    list-style: none;
+}
+
 /* headers */
 .headers {
-    padding: 40px;
+    padding: 40px 0 0;
+    display: flex;
     
 }
+
+.logo {
+    width: 90px;
+   display: block;
+}
+
+.menu-list{
+    display: flex;
+}
+
+.menu-item {
+    font-family: var(--primary-font);
+    font-size: 15px;
+    font-weight: var(--medium-font);
+}
+
+.menu-link {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+
 
 /* slider */
 
